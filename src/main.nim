@@ -11,7 +11,7 @@ var elsemsg = "Command not found."
 # let strings
 let emptmsg = "A command should be full, not empty."
 
-# death line, dont touch this if u dont know what ur doing
+# dead line, dont touch this if u dont know what ur doing
 proc runPipeline(cmdLine: string) =
   let parts = cmdLine.split("|").mapIt(it.strip())
 
